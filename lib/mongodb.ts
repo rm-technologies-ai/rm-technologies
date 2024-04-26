@@ -31,7 +31,7 @@ const dbConnect = async (): Promise<Db> => {
         clientPromise = client.connect();
     }
     const client = await clientPromise;
-    return client.db('rmtechdb'); // Your database name goes here
+    return client.db('rmtechdb'); // database name
 };
 
 export default dbConnect;
