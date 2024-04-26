@@ -28,6 +28,10 @@ body {
 
 @layer utilities {
   .text-balance {
+  }
+
+  .text-balance {
+    /*noinspection CssInvalidPropertyValue*/
     text-wrap: balance;
   }
 }
